@@ -1,63 +1,71 @@
-
-
-
-h1{
-    color: black;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-h2{
-    color: black;
-
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 12px;
   }
-    
-  h4{
-      color:whitesmoke;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 10px;
   }
-
-
-
-h5{
-    color: black;
 }
 
-h4
-
-h6{
-    color: black;
+h1 {
+  color: black;
 }
 
-
-p{
-    color: black;
+h2 {
+  color: black;
 }
 
-.form-floating
-{
-    color: black;
+h4 {
+  color: whitesmoke;
+}
+
+h5 {
+  color: black;
+}
+
+h6 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+.form-floating {
+  color: black;
 }
 
 #parrafoImportante {
-color: whitesmoke
+  color: white
 }
 
 .container-fluid {
-    position: relative;
-  }
-  
-  .bottomright {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    bottom: 140px;
-    right: 40px;
-    font-size: 18px;
-    color: whitesmoke;
-  }
- 
+  position: relative;
+}
 
-  img { 
-    width: 100%;
-    height: auto;
-    opacity: 1
-    ;
-  }
+.bottomright {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: 140px;
+  right: 40px;
+  font-size: 18px;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+.oscurecer-img {
+  filter: brightness(75%);
+}
+
