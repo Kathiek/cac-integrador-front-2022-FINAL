@@ -1,0 +1,60 @@
+h1{
+    color: black;
+}
+
+
+h2{
+    color: black;
+
+  }
+    
+  h4{
+      color:whitesmoke;
+  }
+
+
+
+h5{
+    color: black;
+}
+
+h4
+
+h6{
+    color: black;
+}
+
+
+p{
+    color: black;
+}
+
+.form-floating
+{
+    color: black;
+}
+
+#parrafoImportante {
+color: whitesmoke
+}
+
+.container-fluid {
+    position: relative;
+  }
+  
+  .bottomright {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 140px;
+    right: 40px;
+    font-size: 18px;
+    color: whitesmoke;
+  }
+ 
+
+  img { 
+    width: 100%;
+    height: auto;
+    opacity: 1
+    ;
+  }
